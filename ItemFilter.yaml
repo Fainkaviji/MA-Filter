@@ -1,0 +1,942 @@
+## FainFilter
+## 
+
+############################# JEWELRY #############################
+
+Ring:
+  - Qualities: unique
+  - Qualities: rare
+  # - Qualities: magic
+  #   PlaySoundOnDrop: false
+
+Amulet:
+  - Qualities: [unique, set]
+  - Qualities: rare
+  # - Qualities: magic 
+  #   PlaySoundOnDrop: false
+
+############################# JEWELS #############################
+
+Jewel:
+  - Qualities: unique
+  - Qualities: rare
+  - Qualities: magic 
+
+############################# CHARMS #############################
+
+Small Charm:
+  - Qualities: unique # Annihilus
+  - Qualities: magic
+
+Large Charm:
+  - Qualities: unique # Hellfire Torch
+  - Qualities: Magic
+    PlaySoundOnDrop: false
+
+Grand Charm:
+  - Qualities: unique # Gheed's Fortune
+  - Qualities: magic
+
+############################# HELMS #############################
+
+# Skull Cap:
+#   - Qualities: unique # Tarnhelm
+#     Ethereal: false
+
+# War Hat:
+#   - Qualities: unique # Peasant Crown
+#     Ethereal: false
+
+# Sallet:
+#   - Qualities: unique # Rockstopper
+#     Ethereal: false
+
+Winged Helm:
+  - Qualities: unique # Valkyrie Wing
+    Ethereal: false
+  - Qualities: set  # Guillaume's Face
+
+Death Mask:
+  - Qualities: set  # Tal Rasha's Horadric Crest
+
+# Grand Crown:
+#   - Qualities: unique # Crown of Thieves
+#     Ethereal: false
+
+Grim Helm:
+  - Qualities: unique # Vampire Gaze
+
+Shako:
+  - Qualities: unique # Harlequin Crest
+    Ethereal: false
+
+Spired Helm:
+  - Qualities: unique # Nightwing's Veil
+    Ethereal: false
+
+Demonhead:
+  - Qualities: unique # Andariel's Visage
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 3]
+    Defense: 154 # 101-154
+    # Enhanced Defense: 15
+
+Corona:
+  - Qualities: unique # Crown of Ages
+  - Qualities: set  # Griswold's Valor
+    Ethereal: false
+
+Bone Visage:
+  - Qualities: unique # Giant Skull
+    Ethereal: false
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 3]
+    Defense: 157 # 100-157
+    # Enhanced Defense: 15
+
+############################# CIRCLETS #############################
+
+Circlet:
+  - Qualities: rare
+  - Qualities: magic
+    PlaySoundOnDrop: false
+
+Coronet:
+  - Qualities: rare
+  - Qualities: magic
+    PlaySoundOnDrop: false
+
+Tiara:
+  - Qualities: unique # Kira's Guardian
+    Ethereal: false
+  - Qualities: rare
+  - Qualities: magic
+    PlaySoundOnDrop: false
+
+Diadem:
+  - Qualities: unique # Griffon's Eye
+    # Ethereal: false
+  - Qualities: rare
+  - Qualities: magic
+    PlaySoundOnDrop: false
+
+############################# BARB HELMS #############################
+
+Barbarian Helms:
+  # - Qualities: rare
+  #   Ethereal: false
+  # - Qualities: magic
+  #   Ethereal: false
+  #   PlaySoundOnDrop: false
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 3]
+    Skills:
+      Battle Orders: 3
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 3]
+    Skills:
+      Find Item: 3
+
+Slayer Guard:
+  - Qualities: unique # Arreat's Face
+
+############################# DRUID PELTS #############################
+
+Druid Helms:
+  # - Qualities: rare
+  #   Ethereal: false
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 3]
+    Skills:
+      Hurricane: 3
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 3]
+    Skills:
+      Tornado: 3
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 3]
+    Class Skill Tree:
+      Druid Elemental: 5
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 3]
+    Class Skill Tree:
+      Druid Summoning: 5
+
+Totemic Mask:
+  - Qualities: unique # Jalal's Mane
+    Ethereal: false
+
+############################# ARMORS #############################
+
+Armors:
+  - Qualities: [normal, superior] # Merc Armors
+    Defense: 750
+    Sockets: [0, 3, 4]
+  - Qualities: [normal, superior] # Perfect superior runebase catch-all
+    Tiers: elite
+    Enhanced Defense: 15
+    Ethereal: false
+    Sockets: [0, 3, 4]
+
+Serpentskin Armor:
+  - Qualities: unique # Skin of the Vipermagi
+    Ethereal: false
+
+Cuirass:
+  - Qualities: unique # Duriel's Shell
+    Ethereal: true
+
+Mesh Armor:
+  - Qualities: unique # Shaftstop
+
+Russet Armor:
+  - Qualities: unique # Skullder's Ire
+
+Mage Plate:
+#   - Qualities: unique # Que-Hagan's Wisdom
+#     Ethereal: false
+  - Qualities: [normal, superior]
+    Defense: 261 # 225-261
+    Enhanced Defense: 15
+    Ethereal: false
+    Sockets: [0, 3]
+
+# Templar Coat:
+#   - Qualities: unique # Guardian Angel
+#     Ethereal: false
+
+Dusk Shroud:
+  - Qualities: unique # Ormus' Robes
+    Ethereal: false
+  - Qualities: [normal, superior]
+    Defense: 460 # 361-467
+    # Enhanced Defense: 15
+    Ethereal: false
+    Sockets: [0, 3, 4]
+
+Wire Fleece:
+  - Qualities: unique # The Gladiator's Bane
+    Ethereal: true
+
+Balrog Skin:
+  - Qualities: unique # Arkaine's Valor
+    Ethereal: false
+
+Archon Plate:
+  - Qualities: [normal, superior]
+    Defense: 515 # 410-524
+    # Enhanced Defense: 15
+    Ethereal: false
+    Sockets: [0, 3, 4]
+
+Kraken Shell:
+  - Qualities: unique # Leviathan
+
+Lacquered Plate:
+  - Qualities: set  # Tal Rasha's Guardianship
+
+Sacred Armor:
+  - Qualities: unique # Tyreal's Might
+  - Qualities: set  # Immortal King's Soul Cage
+  - Qualities: [normal, superior]
+    Defense: 600 # 487-600
+    # Enhanced Defense: 15
+    Ethereal: false
+    Sockets: [0, 3, 4]
+
+############################# SHIELDS #############################
+
+# Round Shield:
+#   - Qualities: unique # Moser's Blessed Circle
+#     Ethereal: false
+
+Monarch:
+  - Qualities: magic
+    # PlaySoundOnDrop: false
+  - Qualities: unique # Stormshield
+
+############################# PALADIN SHIELDS #############################
+
+Paladin Shields:
+  - Qualities: magic
+    Tiers: elite
+    Ethereal: false
+  - Qualities: rare
+  - Qualities: [normal, superior]
+    Sockets: [0, 4]
+    All Resist: 40
+  - Tiers: elite
+    Qualities: superior
+    Ethereal: true
+    Sockets: [0, 4]
+    Enhanced Damage: 60
+
+Gilded Shield:
+  - Qualities: unique # Herald Of Zakarum
+
+Sacred Rondache:
+  - Qualities: unique # Alma Negra
+
+Vortex Shield:
+  - Qualities: set # Griswold's Honor
+
+############################# NECRO HEADS #############################
+
+Necromancer Shields:
+  # - Qualities: rare
+  #   Ethereal: false
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 2]
+    Skills:
+      Bone Spear: 2
+      Bone Spirit: 2
+  # - Qualities: [normal, superior]
+  #   Ethereal: false
+  #   Sockets: [0, 2]
+  #   Skills:
+  #     Bone Spear: 3
+  # - Qualities: [normal, superior]
+  #   Ethereal: false
+  #   Sockets: [0, 2]
+  #   Skills:
+  #     Bone Spirit: 3
+  - Qualities: [normal, superior] 
+    Ethereal: false
+    Sockets: [0, 2]
+    Skills:
+      Poison Nova: 3
+
+Hierophant Trophy:
+  - Qualities: unique # Homunculus
+    Ethereal: false
+
+Bloodlord Skull:
+  - Qualities: unique # Darkforce Spawn
+    Ethereal: false
+
+############################# GLOVES #############################
+
+Gloves:
+  - Qualities: rare
+    Ethereal: false
+  - Qualities: magic # Shop
+    Increased Attack Speed: 20
+    Class Skill Tree:
+      Amazon Javelin And Spear: 3
+
+Chain Gloves:
+  - Qualities: unique # Chance Guards
+
+Light Gauntlets:
+  - Qualities: unique # Magefist
+
+Heavy Bracers:
+  - Qualities: set  # Trang-Oul's Claws
+
+Bramble Mitts:
+  - Qualities: set  # Laying of Hands
+
+Vampirebone Gloves:
+  - Qualities: unique # Dracul's Grasp
+
+Ogre Gauntlets:
+  - Qualities: unique # Steelrend
+
+############################# BOOTS #############################
+
+Boots:
+  - Qualities: rare
+    Ethereal: false
+
+Sharkskin Boots:
+  - Qualities: unique # Waterwalk
+
+Mesh Boots:
+  - Qualities: unique # Silkweave
+
+Battle Boots:
+  - Qualities: unique # War Traveler
+  - Qualities: set  # Aldur's Advance
+
+War Boots:
+  - Qualities: unique # Gore Rider
+
+Scarabshell Boots:
+  - Qualities: unique # Sandstorm Trek
+
+Boneweave Boots:
+  - Qualities: unique # Marrowwalk
+
+Myrmidon Greaves:
+  - Qualities: unique # Shadow Dancer
+
+############################# BELTS #############################
+
+Belts:
+  - Qualities: rare
+    Ethereal: false
+
+Heavy Belt:
+  - Qualities: unique # Goldwrap
+
+Demonhide Sash:
+  - Qualities: unique # String of Ears
+
+Sharkskin Belt:
+  - Qualities: unique # Razortail
+
+Mesh Belt:
+  - Qualities: set # Tal Rasha's Fine Spun Cloth
+
+# Battle Belt:
+#   - Qualities: unique # Snowclash
+
+War Belt:
+  - Qualities: unique # Thundergod's Vigor
+
+Spiderweb Sash:
+  - Qualities: unique # Arachnid Mesh
+
+# Vampirefang Belt:
+#   - Qualities: unique # Nosferatu's Coil
+
+Mithril Coil:
+  - Qualities: unique # Verdungo's Hearty Cord
+
+############################# AXES #############################
+
+Berserker Axe:
+  - Qualities: superior
+    Enhanced Damage: 15
+    Sockets: [0, 4, 5, 6]
+  - Qualities: unique # Death Cleaver
+
+# Ettin Axe:
+#   - Qualities: unique # Rune Master
+
+############################# BOWS #############################
+
+Short Siege Bow:
+  - Qualities: unique # Witchwild String
+
+Blade Bow:
+  - Qualities: superior
+    Enhanced Damage: 15
+    Sockets: [0, 4]
+
+Great Bow:
+  - Qualities: superior
+    Enhanced Damage: 15
+    Sockets: [0, 4]
+
+Ward Bow:
+  - Qualities: unique # Widowmaker
+
+Hydra Bow:
+  - Qualities: unique # Windforce
+
+############################# DAGGERS #############################
+
+Daggers:
+  - Qualities: magic # Shop
+    Class Skill Tree:
+      Barbarian Warcries: 3
+
+Bone Knife:
+  - Qualities: unique # Wizardspike
+
+Fanged Knife:
+  - Qualities: unique # Fleshripper
+
+############################# MACES #############################
+
+Flail:
+  - Qualities: [normal, superior]
+    Sockets: [4, 5]
+
+# Knout:
+#   - Qualities: unique # Baezil's Vortex
+
+Scourge:
+  - Qualities: unique # Stormlash
+
+############################# POLEARMS #############################
+
+Ogre Axe:
+  - Qualities: unique # Bonehew
+    Ethereal: true
+
+Thresher:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+    Ethereal: true
+  - Qualities: unique # The Reaper's Toll
+    Ethereal: true
+
+Cryptic Axe:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4]
+    Ethereal: true
+  - Qualities: unique # Tomb Reaver
+    Ethereal: true
+
+Great Poleaxe:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 6]
+    Ethereal: true
+
+Giant Thresher: 
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+    Ethereal: true
+
+############################# SPEARS #############################
+
+Yari: 
+  - Qualities: unique # Hone Sundan
+    Ethereal: true
+
+Stygian Pike:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4]
+    Ethereal: true
+
+Ghost Spear:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 6]
+    Ethereal: true
+
+Mancatcher:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+    Ethereal: true
+
+############################# SCEPTERS #############################
+
+Scepters:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+    Skills:
+      Holy Shield: 3
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+    Skills:
+      Fist Of The Heavens: 3
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+    Skills:
+      Blessed Hammer: 3
+  - Qualities: magic
+    Skills:
+      Fist Of The Heavens: 5
+  - Qualities: magic
+    Skills:
+      Blessed Hammer: 5
+
+Caduceus:
+  - Qualities: set # Griswold's Redemption
+  - Qualities: unique # Astreon's Iron Ward
+
+Mighty Scepter:
+  - Qualities: unique # Heaven's Light, Redeemer
+
+############################# STAVES #############################
+
+Staves:
+  - Tiers: normal # Leaf
+    Qualities: [normal, superior]
+    Sockets: [0, 2]
+    Skills:
+      Fire Ball: 2
+      Teleport: 1
+  - Tiers: normal # Leaf
+    Qualities: [normal, superior]
+    Sockets: [2]
+    Skills:
+      Fire Blast: 3
+  - Qualities: [normal, superior] # Memory
+    Sockets: [0, 4]
+    Skills:
+      Energy Shield: 3
+#   - Qualities: [magic]
+#     Skill Charges:
+#       Teleport: 1
+
+Quarterstaff:
+  - Qualities: unique # Ribcracker
+    Ethereal: true
+
+Elder Staff:
+  - Qualities: unique # Ondal's Wisdom
+  - Qualities: set # Naj's Puzzler
+  - Qualities: [normal, superior]
+    Sockets: [0, 4]
+    Skills:
+      Energy Shield: 3
+
+## obsession ##
+War Staff:
+  - Qualities: [normal, superior]
+    Sockets: [0, 6]
+    Class Skill Tree:
+      Sorceress Fire: 5
+  - Qualities: [normal, superior]
+    Sockets: [0, 6]
+    Class Skill Tree:
+      Sorceress Cold: 5
+  - Qualities: [normal, superior]
+    Sockets: [0, 6]
+    Class Skill Tree:
+      Sorceress Lightning: 5
+
+Rune Staff:
+  - Qualities: [normal, superior]
+    Sockets: [0, 6]
+    Class Skill Tree:
+      Sorceress Fire: 5
+  - Qualities: [normal, superior]
+    Sockets: [0, 6]
+    Class Skill Tree:
+      Sorceress Cold: 5
+  - Qualities: [normal, superior]
+    Sockets: [0, 6]
+    Class Skill Tree:
+      Sorceress Lightning: 5
+
+Archon Staff:
+  - Qualities: unique # Mang Song's Lesson
+  - Qualities: [normal, superior]
+    Sockets: [0, 6]
+    Class Skill Tree:
+      Sorceress Fire: 5
+  - Qualities: [normal, superior]
+    Sockets: [0, 6]
+    Class Skill Tree:
+      Sorceress Cold: 5
+  - Qualities: [normal, superior]
+    Sockets: [0, 6]
+    Class Skill Tree:
+      Sorceress Lightning: 5
+
+
+############################# SWORDS #############################
+
+Crystal Sword:
+  - Qualities: [normal, superior]
+    Sockets: [4, 5]
+  - Qualities: magic
+    Class Skill Tree:
+      Barbarian Warcries: 3
+  - Qualities: rare
+    Ethereal: true
+
+Broad Sword:
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [4]
+
+Giant Sword:
+  - Qualities: magic
+    Class Skill Tree:
+      Barbarian Warcries: 3
+
+Tulwar:
+  - Qualities: unique # Blade of Ali Baba
+
+Phase Blade:
+  # - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5, 6]
+  - Qualities: unique # Azurewrath
+
+Highland Blade:
+  - Qualities: [normal, superior]
+    Ethereal: true
+    Sockets: [4]
+
+Balrog Blade:
+  - Qualities: [normal, superior]
+    Ethereal: true
+    Sockets: [4]
+
+Cryptic Sword:
+  - Qualities: [normal, superior]
+    Ethereal: true
+    Sockets: [4]
+
+Mythical Sword:
+  - Qualities: set # Bul-Kathos' Tribal Guardian
+
+Colossus Blade:
+  - Qualities: [normal, superior]
+    Ethereal: true
+    Sockets: [0, 4, 5, 6]
+  - Qualities: [normal, superior]
+    Sockets: [5, 6]
+  - Qualities: set # Bul-Kathos' Sacred Charge
+  - Qualities: unique # The Grandfather
+
+############################# WANDS #############################
+
+Wands:
+  - Qualities: [normal, superior]
+    Sockets: [0, 2]
+    Skills:
+      Bone Spear: 2
+      Bone Spirit: 2
+  - Qualities: [normal, superior]
+    Sockets: [0, 2]
+    Skills:
+      Bone Spirit: 3
+  - Qualities: [normal, superior]
+    Sockets: [0, 2]
+    Skills:
+      Bone Spear: 3
+
+Burnt Wand:
+  - Qualities: unique # Suicide Branch
+
+Unearthed Wand:
+  - Qualities: unique # Death's Web
+
+############################# JAVELINS #############################
+
+Javelins:
+  - Qualities: rare
+    Ethereal: true
+  - Qualities: magic # shop
+    Class Skill Tree:
+      Barbarian Warcries: 3
+
+Ghost Glaive:
+  - Qualities: unique # Wraith Flight
+
+############################# THROWN #############################
+
+Throwing Knifes:
+  - Qualities: rare
+    Ethereal: true
+
+Throwing Axes:
+  - Qualities: rare
+    Ethereal: true
+
+Winged Knife:
+  - Qualities: unique # Warshrike
+    Ethereal: true
+
+Winged Axe:
+  - Qualities: unique # Lacerator
+    Ethereal: true
+
+############################# AMAZON WEAPONS #############################
+
+Amazon Bows:
+  - Tiers: Elite
+    Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+    Class Skill Tree:
+      Amazon Bow And Crossbow: 3
+
+Ceremonial Javelin:
+  - Qualities: magic
+    Ethereal: false
+  - Qualities: unique # Titan's Revenge
+    # Ethereal: true
+
+Matriarchal Javelin:
+  - Qualities: magic
+    Ethereal: false
+  - Qualities: unique # Thunderstroke
+    Ethereal: false
+
+Matriarchal Spear:
+  - Qualities: [normal, superior]
+    Sockets: [4, 5]
+    Ethereal: true
+
+############################# ASSASSIN KATARS #############################
+
+Assassin Katars:
+  # - Qualities: rare
+  #   Ethereal: false
+  - Qualities: [magic, rare] 
+    Class Skill Tree:
+      Assassin Traps: 6
+  - Qualities: [magic, rare] 
+    Skills:
+      Lightning Sentry: 5
+  - Qualities: [magic, rare] 
+    Skills:
+      Wake of Fire: 5
+  - Qualities: [magic, rare] 
+    Skills:
+      Wake of Inferno: 5
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
+    Skills:
+      Lightning Sentry: 3
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
+    Skills:
+      Lightning Sentry: 2
+      Mind Blast: 1
+  - Qualities: [normal, superior] 
+    Sockets: [0, 3]
+    Skills:
+      Blade Fury: 3
+  - Qualities: [normal, superior] 
+    Sockets: [0, 3]
+    Skills:
+      Wake of Fire: 3
+  - Tiers: elite
+    Qualities: [normal, superior] 
+    Sockets: [0, 3]
+    Skills:
+      Weapon Block: 1
+      Venom: 1
+  - Qualities: [normal, superior] 
+    Sockets: [0, 3]
+    Skills:
+      Phoenix Strike: 3
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
+    Skills:
+      Mind Blast: 2
+      Dragon Flight: 1
+
+Greater Talons:
+  - Qualities: unique # Bartuc's Cut-Throat
+    Ethereal: false
+
+Wrist Sword:
+  - Qualities: unique # Jade Talon
+    Ethereal: false
+
+Battle Cestus:
+  - Qualities: unique # Shadow Killer
+
+############################# SORC ORBS #############################
+
+Swirling Crystal:
+  - Qualities: unique # The Oculus
+  - Qualities: set # Tal Rashas Lidless Eye
+  
+Eldritch Orb:
+  - Qualities: unique # Eschuta's Temper
+
+Dimensional Shard:
+  - Qualities: unique # Death's Fathom
+
+############################# RUNES #############################
+
+El Rune:
+  - PlaySoundOnDrop: false
+Eld Rune:
+  - PlaySoundOnDrop: false
+Tir Rune:
+  - PlaySoundOnDrop: false
+Nef Rune:
+  - PlaySoundOnDrop: false
+Ith Rune:
+  - PlaySoundOnDrop: false
+Eth Rune:
+  - PlaySoundOnDrop: false
+Tal Rune:
+  - PlaySoundOnDrop: false
+Ral Rune:
+Ort Rune:
+  - PlaySoundOnDrop: false
+Thul Rune:
+  - PlaySoundOnDrop: false
+Amn Rune:
+  - PlaySoundOnDrop: false
+Sol Rune:
+  - PlaySoundOnDrop: false
+Shael Rune:
+  - PlaySoundOnDrop: false
+Dol Rune:
+  - PlaySoundOnDrop: false
+Hel Rune:
+Io Rune:
+Lum Rune:
+Ko Rune:
+Fal Rune:
+Lem Rune:
+Pul Rune:
+Um Rune:
+Mal Rune:
+Ist Rune:
+Gul Rune:
+Vex Rune:
+Ohm Rune:
+Lo Rune:
+Sur Rune:
+Ber Rune:
+Jah Rune:
+Cham Rune:
+Zod Rune:
+
+############################# GEMS #############################
+
+Flawless Ruby:
+  - PlaySoundOnDrop: false
+Flawless Emerald:
+  - PlaySoundOnDrop: false
+Flawless Sapphire:
+  - PlaySoundOnDrop: false
+Flawless Diamond:
+  - PlaySoundOnDrop: false
+Flawless Topaz:
+  - PlaySoundOnDrop: false
+Flawless Skull:
+  - PlaySoundOnDrop: false
+Flawless Amethyst:
+  # - PlaySoundOnDrop: false
+Perfect Ruby:
+Perfect Emerald:
+Perfect Sapphire:
+Perfect Amethyst:
+Perfect Diamond:
+Perfect Topaz:
+Perfect Skull:
+
+############################# KEYS #############################
+
+Key of Terror:
+Key of Hate:
+Key of Destruction:
+
+############################# ORGANS #############################
+
+Diablos Horn:
+Baals Eye:
+Mephistos Brain:
+
+############################# ESSENCE #############################
+
+Twisted Essence of Suffering:
+Charged Essence of Hatred:
+Burning Essence of Terror:
+Festering Essence of Destruction:
+Token of Absolution:
+
+############################# MISC #############################
+
+A Jade Figurine:
+
+Any:
+  - Qualities: [superior]
+    Enhanced Defense: 15
+  - Qualities: [superior]
+    Enhanced Damage: 15
+    
